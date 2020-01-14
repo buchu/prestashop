@@ -1,6 +1,6 @@
 FROM prestashop/base:7.2-apache
 
-ENV PS_VERSION 1.7.6.0
+ENV PS_VERSION 1.7.6.2
 
 # Update log
 COPY remoteip.conf /etc/apache2/conf-available/remoteip.conf
